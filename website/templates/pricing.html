@@ -1,0 +1,92 @@
+{% extends "base.html" %} {% block title %}Pricing{% endblock %} {% block content
+    %}
+    <br>
+    <br>
+<div class="pricing-table">
+  <div class="ptable-item">
+    <div class="ptable-single">
+      <div class="ptable-header">
+        <div class="ptable-title">
+          <h2>Trial</h2>
+        </div>
+        <div class="ptable-price">
+          <h2>Free</h2>
+        </div>
+      </div>
+      <div class="ptable-body">
+        <div class="ptable-description">
+          <ul>
+            <li>1 day</li>
+            <li>Well-commented Code</li>
+            <li>Easy to Use</li>
+          </ul>
+        </div>
+      </div>
+      <div class="ptable-footer">
+        <div class="ptable-action">
+          <a href="/sign-up" class="enableButton">Enable</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ptable-item">
+    <div class="ptable-single">
+      <div class="ptable-header">
+        <div class="ptable-title">
+          <h2>Silver</h2>
+        </div>
+        <div class="ptable-price">
+          <h2>0.1&ensp;<small>eth</small><span>/ M</span></h2>
+        </div>
+      </div>
+      <div class="ptable-body">
+        <div class="ptable-description">
+          <ul>
+            <li>30 days</li>
+            <li>Well-commented Code</li>
+            <li>Easy to Use</li>
+          </ul>
+        </div>
+      </div>
+      <div class="ptable-footer">
+        <div class="ptable-action">
+          <button href="" class="sendEthButton1" onclick="sendEth1()">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ptable-item featured-item">
+    <div class="ptable-single">
+      <div class="ptable-header">
+        <div class="ptable-status">
+          <span>Hot</span>
+        </div>
+        <div class="ptable-title">
+          <h2>Gold</h2>
+        </div>
+        <div class="ptable-price">
+          <h2>0.2&ensp;<small>eth</small><span>/ M</span></h2>
+        </div>
+      </div>
+      <div class="ptable-body">
+        <div class="ptable-description">
+          <ul>
+            <li>60 days</li>
+            <li>Well-commented Code</li>
+            <li>Easy to Use</li>
+          </ul>
+        </div>
+      </div>
+      <div class="ptable-footer">
+        <div class="ptable-action">
+          <button href="" class="sendEthButton2" onclick="sendEth2()">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+{% endblock %}
